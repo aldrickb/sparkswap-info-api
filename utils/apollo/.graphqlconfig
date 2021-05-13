@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "PancakeSwap v2": {
-        "url": "https://api.bscgraph.org/subgraphs/name/cakeswap",
+        "url": "https://api.thegraph.com/subgraphs/name/aldrickb/sparkswapgraphv2",
         "headers": {
           "user-agent": "JS GraphQL"
         },

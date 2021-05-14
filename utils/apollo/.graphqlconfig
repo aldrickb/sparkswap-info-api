@@ -1,9 +1,9 @@
 {
-  "name": "PancakeSwap v2",
+  "name": "SparkSwap v2",
   "schemaPath": "schema.graphql",
   "extensions": {
     "endpoints": {
-      "PancakeSwap v2": {
+      "SparkSwap v2": {
         "url": "https://api.thegraph.com/subgraphs/name/aldrickb/sparkswapgraphv2",
         "headers": {
           "user-agent": "JS GraphQL"

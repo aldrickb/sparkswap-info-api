@@ -1,9 +1,9 @@
-# PancakeSwap API
+# SparkSwap API
 
-The PancakeSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface PancakeSwap liquidity
+The SparkSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface SparkSwap liquidity
 and volume information. All information is fetched from the underlying subgraphs.
 
-Subgraph: https://api.bscgraph.org/subgraphs/name/cakeswap
+Subgraph: https://api.thegraph.com/subgraphs/name/aldrickb/sparkswapgraphv2
 
 ## Documentation
 

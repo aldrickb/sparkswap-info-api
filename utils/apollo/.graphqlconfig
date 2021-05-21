@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "SparkSwap v2": {
-        "url": "https://api.thegraph.com/subgraphs/name/aldrickb/sparkswapgraphv2",
+        "url": "https://api.thegraph.com/subgraphs/name/kojiadrianojr/sparkswap-v2-subgraph",
         "headers": {
           "user-agent": "JS GraphQL"
         },

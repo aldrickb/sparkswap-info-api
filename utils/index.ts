@@ -30,8 +30,7 @@ const HOUR = 60 * MINUTE;
 const DAY = 24 * HOUR;
 
 export function get24HoursAgo(): number {
-  return 1620345600;
-  //return Math.floor((Date.now() - DAY) / 1000);
+  return Math.floor((Date.now() - DAY) / 1000);
 }
 
 const TOP_PAIR_LIMIT = 1000;
@@ -44,8 +43,7 @@ export interface MappedDetailedPair extends Pair {
 }
 
 export async function getTopPairs(): Promise<MappedDetailedPair[]> {
-  const epochSecond = 1620432000;
-  // const epochSecond = Math.floor(new Date().getTime() / 1000);
+  const epochSecond = Math.floor(new Date().getTime() / 1000);
   const firstBlock = await getBlockFromTimestamp(epochSecond - 86400);
 
   if (!firstBlock) {

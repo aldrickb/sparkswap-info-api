@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "Binance Smart Chain Blocks": {
-        "url": "https://api.thegraph.com/subgraphs/name/aldrickb/test2sparkblock",
+        "url": "https://api.thegraph.com/subgraphs/name/dynamic-amm/ethereum-blocks-ethereum",
         "headers": {
           "user-agent": "JS GraphQL"
         },

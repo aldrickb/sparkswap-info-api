@@ -32,7 +32,7 @@ export const TOP_PAIRS = gql`
       first: $limit
       orderBy: reserveUSD
       orderDirection: desc
-      where: { token0_not_in: $excludeTokenIds, token1_not_in: $excludeTokenIds }
+      where: { id_not_in: $excludeTokenIds, token0_not_in: $excludeTokenIds, token1_not_in: $excludeTokenIds }
     ) {
       id
       token0 {
